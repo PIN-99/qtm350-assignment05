@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "report.html",
+    "href": "report.html",
+    "title": "World Development dataset analysis",
+    "section": "",
+    "text": "Warning: package 'tidyverse' was built under R version 4.3.3\n\n\nWarning: package 'ggplot2' was built under R version 4.3.3\n\n\nWarning: package 'tibble' was built under R version 4.3.2\n\n\nWarning: package 'tidyr' was built under R version 4.3.2\n\n\nWarning: package 'readr' was built under R version 4.3.2\n\n\nWarning: package 'purrr' was built under R version 4.3.2\n\n\nWarning: package 'dplyr' was built under R version 4.3.3\n\n\nWarning: package 'stringr' was built under R version 4.3.2\n\n\nWarning: package 'forcats' was built under R version 4.3.2\n\n\nWarning: package 'lubridate' was built under R version 4.3.2\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+  },
+  {
+    "objectID": "report.html#load-the-dataset-using-r.",
+    "href": "report.html#load-the-dataset-using-r.",
+    "title": "World Development dataset analysis",
+    "section": "",
+    "text": "Warning: package 'tidyverse' was built under R version 4.3.3\n\n\nWarning: package 'ggplot2' was built under R version 4.3.3\n\n\nWarning: package 'tibble' was built under R version 4.3.2\n\n\nWarning: package 'tidyr' was built under R version 4.3.2\n\n\nWarning: package 'readr' was built under R version 4.3.2\n\n\nWarning: package 'purrr' was built under R version 4.3.2\n\n\nWarning: package 'dplyr' was built under R version 4.3.3\n\n\nWarning: package 'stringr' was built under R version 4.3.2\n\n\nWarning: package 'forcats' was built under R version 4.3.2\n\n\nWarning: package 'lubridate' was built under R version 4.3.2\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+  },
+  {
+    "objectID": "report.html#conduct-exploratory-data-analysis-on-at-least-three-indicators-of-your-choice.-summarise-your-findings-in-markdown-sections.",
+    "href": "report.html#conduct-exploratory-data-analysis-on-at-least-three-indicators-of-your-choice.-summarise-your-findings-in-markdown-sections.",
+    "title": "World Development dataset analysis",
+    "section": "3.Conduct exploratory data analysis on at least three indicators of your choice. Summarise your findings in markdown sections.",
+    "text": "3.Conduct exploratory data analysis on at least three indicators of your choice. Summarise your findings in markdown sections.\n\nSummary Statistics\n\n\n\n    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's \n   250.6   2599.8   7606.2  20520.3  27542.2 226052.0       10 \n\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's \n  53.00   66.78   73.51   72.42   78.47   85.38       8 \n\n\n     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. \n9.992e+03 8.216e+05 6.664e+06 3.671e+07 2.601e+07 1.425e+09 \n\n\nThe summary provides key metrics (minimum, 1st quartile, median, mean, 3rd quartile, maximum) for each indicator. This helps us understand the central tendency and spread of the data.\n\nCorrelation Analysis\n\n\n\n                 gdp_per_capita life_expectancy total_population\ngdp_per_capita       1.00000000      0.64248552      -0.06151561\nlife_expectancy      0.64248552      1.00000000      -0.01445514\ntotal_population    -0.06151561     -0.01445514       1.00000000\n\n\nThe correlation matrix shows the linear relationships between the variables. For example, a positive correlation between GDP per Capita and Life Expectancy might suggest that countries with higher incomes tend to have longer life expectancies.\nThe correlation matrix shows a moderate positive relationship between GDP per capita and life expectancy (r ≈ 0.64), indicating that higher income levels are generally associated with longer life expectancies. In contrast, both GDP per capita and life expectancy have almost no relationship with total population (r ≈ -0.06 and r ≈ -0.01, respectively), suggesting that a country’s population size does not significantly impact these measures."
+  },
+  {
+    "objectID": "report.html#create-at-least-two-different-types-of-plots-e.g.-bar-chart-scatter-plot-to-represent-your-analysis.-use-quarto-code-chunks-to-embed-these-visualisations.-add-a-title-and-axis-labels-to-each-plot.-use-quarto-to-include-a-caption-and-a-reference-to-the-source-of-the-data.-hide-your-code-in-the-final-document.",
+    "href": "report.html#create-at-least-two-different-types-of-plots-e.g.-bar-chart-scatter-plot-to-represent-your-analysis.-use-quarto-code-chunks-to-embed-these-visualisations.-add-a-title-and-axis-labels-to-each-plot.-use-quarto-to-include-a-caption-and-a-reference-to-the-source-of-the-data.-hide-your-code-in-the-final-document.",
+    "title": "World Development dataset analysis",
+    "section": "4.Create at least two different types of plots (e.g., bar chart, scatter plot) to represent your analysis. Use Quarto code chunks to embed these visualisations. Add a title and axis labels to each plot. Use Quarto to include a caption and a reference to the source of the data. Hide your code in the final document.",
+    "text": "4.Create at least two different types of plots (e.g., bar chart, scatter plot) to represent your analysis. Use Quarto code chunks to embed these visualisations. Add a title and axis labels to each plot. Use Quarto to include a caption and a reference to the source of the data. Hide your code in the final document.\n\ntop 20 countries with the highest GDP per Capita\n\n\n\n\n\n\nFigure 1: Bar chart of GDP per Capita by Country (Top 20, 2022, in ascending order). Data source: World Development Indicators.\n\n\n\n\n\nScatter plot of GDP per Capita vs. Life Expectancy\n\n\n\nWarning: Removed 18 rows containing missing values or values outside the scale range\n(`geom_point()`).\n\n\n\n\n\nFigure 2: Scatter plot of GDP per Capita vs. Life Expectancy (2022). Data source: World Development Indicators.\n\n\n\n\nWarning: Removed 18 rows containing missing values or values outside the scale range\n(`geom_point()`)."
+  },
+  {
+    "objectID": "report.html#construct-a-table-that-highlights-some-key-statistics-from-your-analysis.-ensure-the-table-is-well-formatted-and-included-in-the-report.",
+    "href": "report.html#construct-a-table-that-highlights-some-key-statistics-from-your-analysis.-ensure-the-table-is-well-formatted-and-included-in-the-report.",
+    "title": "World Development dataset analysis",
+    "section": "5. Construct a table that highlights some key statistics from your analysis. Ensure the table is well-formatted and included in the report.",
+    "text": "5. Construct a table that highlights some key statistics from your analysis. Ensure the table is well-formatted and included in the report.\n\n\n\n\n\n\n\n\nKey Statistics for Selected Indicators (2022)\n\n\nData source: World Development Indicators\n\n\nIndicator\nMedian\nVariance\nMean\n\n\n\n\nGDP per Capita\n7,606\n938,855,045\n20,520\n\n\nLife Expectancy\n74\n59\n72\n\n\n\n\n\ndata source:World Development Indicators."
+  },
+  {
+    "objectID": "report.html#include-cross-references-to-your-figures-and-tables-within-the-text.-demonstrate-proper-labeling-and-referencing-techniques.",
+    "href": "report.html#include-cross-references-to-your-figures-and-tables-within-the-text.-demonstrate-proper-labeling-and-referencing-techniques.",
+    "title": "World Development dataset analysis",
+    "section": "6. Include cross-references to your figures and tables within the text. Demonstrate proper labeling and referencing techniques.",
+    "text": "6. Include cross-references to your figures and tables within the text. Demonstrate proper labeling and referencing techniques.\nIn this report, we presented a bar chart (Figure (ref?)(gdp_bar)) that displays the top 20 countries by GDP per Capita, a scatter plot (Figure (ref?)(scatter_plot)) that illustrates the relationship between Life Expectancy and GDP per Capita, and a summary table (Table (ref?)(stats_table)) showing the key statistics for these indicators. The cross-references ensure that readers can easily navigate to the relevant figures and table for further details."
+  },
+  {
+    "objectID": "report.html#add-a-bibliography-using-bibtex-.bib.-cite-at-least-two-sources-related-to-your-analysis.",
+    "href": "report.html#add-a-bibliography-using-bibtex-.bib.-cite-at-least-two-sources-related-to-your-analysis.",
+    "title": "World Development dataset analysis",
+    "section": "7. Add a bibliography using BibTeX (.bib). Cite at least two sources related to your analysis.",
+    "text": "7. Add a bibliography using BibTeX (.bib). Cite at least two sources related to your analysis.\nThis report cites the findings from (Smith2021?) and (Doe2020?)."
+  }
+]

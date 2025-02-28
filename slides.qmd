@@ -1,0 +1,20 @@
+---
+title: "Economic Analysis Presentation"
+author: "Pinxuan"
+date: "`r Sys.Date()`"
+format: revealjs
+---
+
+# Introduction
+- Analysis of economic indicators
+- Focus on GDP, growth, and inflation
+
+# Load the dataset
+```{python}
+import pandas as pd
+
+# 读取数据
+df = pd.read_csv("wdi.csv")
+
+import pandas as pd
+df[["gdp_per_capita", "gdp_growth_rate", "inflation_rate"]].describe()
